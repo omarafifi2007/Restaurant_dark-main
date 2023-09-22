@@ -1,0 +1,158 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#FBFEFD ;
+}
+html{
+    scroll-behavior: smooth;
+  }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* start navbar */
+.navbar{
+   background-color: #f1eeee;
+}
+.navbar-brand , .navbar-toggler , .links , .links2 , .links3 , .links4  , .links5  {
+    color: #393939;
+}
+.nav-link:hover{
+    color: #048654;
+}
+.change-theme {
+    cursor: pointer;
+    padding-top: 16px;
+  }
+/* End navbar */
+/* Start Landing */
+img{
+  width: 380px;
+  justify-self: center;
+  margin-top: 30px;
+}
+.landing{
+margin-top: 60px;
+}
+.landing .container{
+    flex-wrap: wrap;
+}
+.landing .container .txt{
+   padding-left: 20px;
+}
+h1{
+    color:#048654; 
+    font-size: 350%;
+}
+h2{
+    color: #393939;
+}
+.botton{
+    text-decoration: none;
+    background-color: #048654;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* End Landing */
+/* Start About */
+.about{
+    margin-top: 40px;
+}
+.about-img{
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 70%;
+    justify-self: center;
+}
+.text{
+    margin-left: 50px;
+}
+h6{
+    color: #048654;
+}
+.prag , .prag1 ,.prag3 {
+    color: black;
+}
+p{
+    color:gray;
+}
+/* End About */
+/* Start services */
+.services .container  .box img{
+    width: 64px;
+    height: 64px;
+}
+.services  .container .box h3{
+    text-align: center;
+}
+.services p{
+    width: 80%;
+   padding-left: 55px;
+}
+.services .icon , h5{
+    color: #048654;
+}
+/* End services */
+/* Start Menu */
+.menu img{
+    width: 150px;
+}
+.menu .box1{
+    background-color: #f4f4f4ed;
+    width: 60%;
+    margin: auto;
+    padding: 17px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.menu  .box1 a{
+color: white;
+background-color: #048654;
+padding: 5px;
+padding: 5px;
+margin-left: 50px;
+border-radius: 7px;
+}
+/* End Menu */
+/* Start App */
+.app .text{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+.app .text p{
+width: 330px;
+}
+.app .app-store a img{
+width: 180px;
+}
+/* End App */
+/* Start contact */
+.contact .text-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact  .botton-con {
+display: flex;
+ justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: -120; }
+/* End contact */
+/* Start footer */
+.footer .footer__logo{
+    color: #048654;
+}
+.footer .social-icons a , .footer__link , .footer__title {
+    color: #393939;
+  }
+  @media (max-width:767px) {
+    .footer {
+        text-align: center;
+    }
+    
+  }
+/* End footer */
+ 
